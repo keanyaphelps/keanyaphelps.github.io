@@ -1,0 +1,119 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# If you are using a virtual environment (e.g. venv)
+venv/
+.env/
+env/
+
+# Environments
+*.env
+*.venv
+ENV/
+env.bak/
+venv.bak/
+
+# Testing / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.junit/
+.test/
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Celery
+celerybeat-schedule
+
+# Translations
+*.mo
+
+# Static files
+staticfiles/
+static/
+*.sass-cache
+*.cache
+*.tmp
+
+# Media files
+media/
+
+# Django migrations
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/*.pyd
+
+# JavaScript build artifacts
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Parcel and Webpack build artifacts
+.cache/
+dist/
+.out/
+
+# Log files
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
