@@ -893,11 +893,11 @@ section,
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
-.services .service-item {
+.stream-of-consciousness .stream-item {
   position: relative;
 }
 
-.services .service-item .icon {
+.stream-of-consciousness .stream-item .icon {
   background: var(--accent-color);
   display: flex;
   align-items: center;
@@ -1205,13 +1205,13 @@ section,
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
-.service-details .services-list {
+.stream-details .services-list {
   padding: 10px 30px;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   margin-bottom: 20px;
 }
 
-.service-details .services-list a {
+.stream-details .services-list a {
   display: block;
   line-height: 1;
   padding: 8px 0 8px 15px;
@@ -1221,47 +1221,47 @@ section,
   transition: 0.3s;
 }
 
-.service-details .services-list a.active {
+.stream-details .services-list a.active {
   color: var(--heading-color);
   font-weight: 700;
   border-color: var(--accent-color);
 }
 
-.service-details .services-list a:hover {
+.stream-details .services-list a:hover {
   border-color: var(--accent-color);
 }
 
-.service-details .services-img {
+.stream-details .services-img {
   margin-bottom: 20px;
 }
 
-.service-details h3 {
+.stream-details h3 {
   font-size: 26px;
   font-weight: 700;
 }
 
-.service-details h4 {
+.stream-details h4 {
   font-size: 20px;
   font-weight: 700;
 }
 
-.service-details p {
+.stream-details p {
   font-size: 15px;
 }
 
-.service-details ul {
+.stream-details ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.service-details ul li {
+.stream-details ul li {
   padding: 5px 0;
   display: flex;
   align-items: center;
 }
 
-.service-details ul i {
+.stream-details ul i {
   font-size: 20px;
   margin-right: 8px;
   color: var(--accent-color);
